@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Plain-English guides to starting a freelance or side business.{{ end }}">
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:auto;padding:1rem;line-height:1.65;color:#222}a{color:#0b5cad}header,footer{border-bottom:1px solid #ddd;padding:.5rem 0}footer{border-top:1px solid #ddd;border-bottom:0;font-size:.9rem;margin-top:3rem}.disc{background:#f5f7fa;padding:.6rem;font-size:.9rem;border-left:3px solid #0b5cad}nav a{margin-right:1rem}</style></head>
+<body><header><strong><a href="{{ "" | relURL }}">{{ site.Title }}</a></strong> <nav><a href="{{ "guides/" | relURL }}">Guides</a><a href="{{ "about/" | relURL }}">About</a><a href="{{ "affiliate-disclosure/" | relURL }}">Disclosure</a></nav></header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer>&copy; {{ now.Year }} {{ site.Title }} · General information, not legal or tax advice. · <a href="{{ "privacy/" | relURL }}">Privacy</a> · <a href="{{ "affiliate-disclosure/" | relURL }}">Affiliate Disclosure</a></footer></body></html>

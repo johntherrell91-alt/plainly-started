@@ -1,0 +1,1 @@
+{{ define "main" }}<h1>{{ .Title }}</h1>{{ if eq .Section "guides" }}<p class="disc">Some links on this page are affiliate links. We may earn a commission at no cost to you. <a href="{{ "affiliate-disclosure/" | relURL }}">Learn more</a>.</p>{{ end }}{{ .Content }}{{ end }}

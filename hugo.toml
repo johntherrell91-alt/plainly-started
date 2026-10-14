@@ -1,0 +1,5 @@
+baseURL = "https://johntherrell91-alt.github.io/plainly-started/"
+languageCode = "en-us"
+title = "Plainly Started"
+[markup.goldmark.renderer]
+unsafe = true
