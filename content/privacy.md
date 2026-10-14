@@ -9,4 +9,4 @@ title: Privacy Policy
 
 **Third-party hosting.** The site is hosted on a third-party static host, which may log standard request data (such as IP address) for security.
 
-**Contact.** Questions can be sent through the contact address listed on our About page.
+**Contact.** Questions can be sent by opening an issue at https://github.com/johntherrell91-alt/plainly-started/issues.
